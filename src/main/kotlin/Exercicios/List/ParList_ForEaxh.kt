@@ -1,4 +1,4 @@
-package List
+package Exercicios.List
 
 fun List<Int>.filterEven():List<Int>{
     var list = emptyList<Int>()

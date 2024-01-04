@@ -1,4 +1,4 @@
-package Exercicios5
+package Exercicios.Exercicios5
 
 //Retorna o número de dígitos do número. Exemplo, se number for 1232, deverá retornar 4
 fun countDigits(num:Int):Int {

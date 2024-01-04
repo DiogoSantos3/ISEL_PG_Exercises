@@ -1,3 +1,5 @@
+package Exames.Exame_Verao_2122_T2
+
 fun fx(s: String, chars: List<Char>): List<Char> { if (s.isEmpty()) return emptyList()
     print("-${s.first()}")
     val c = fx(s.drop(1), chars)
@@ -8,4 +10,3 @@ fun fx(s: String, chars: List<Char>): List<Char> { if (s.isEmpty()) return empty
 fun main(){
     fx("ensino", listOf('a', 'e', 'i', 'o', 'u'))
 }
-

@@ -1,4 +1,4 @@
-package Exercicios5
+package Exercicios.Exercicios5
 //Dada uma lista list de inteiros, retorna uma nova lista com os o quadrado dos elementos de list
 fun square(list:List<Int>) = list.map{it*it}
 

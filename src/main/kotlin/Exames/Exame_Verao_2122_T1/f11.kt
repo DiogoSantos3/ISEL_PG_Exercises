@@ -1,4 +1,4 @@
-package `2122_Verao`.`PG-2222-T1`.grupo1.grupo3
+package Exames.Exame_Verao_2122_T1
 
 
 /*fun f1(x: Char, s:String): Int {

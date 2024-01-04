@@ -1,3 +1,5 @@
+
+
 fun readOneLine(n: Int): String? {
     println("Linha $n?")
     val r = readln()
@@ -43,9 +45,12 @@ fun String.numberOfWords(): Int {
     return words.count { it.isNotEmpty() }
 }
 fun List<String>.printIf(condition: (String)->Boolean){
-    this.map{
+     for (i in this){
+         if(condition(i)){
+             print(i)
+         }
 
-    }
+     }
 
 }
 

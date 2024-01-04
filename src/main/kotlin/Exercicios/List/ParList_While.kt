@@ -1,4 +1,4 @@
-package List
+package Exercicios.List
 
 
 fun countLeuers(str:String):Int{ var count=0

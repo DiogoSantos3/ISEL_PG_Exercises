@@ -1,4 +1,4 @@
-package Difference
+package Exercicios.Difference
 data class Nums (val num1:Int, val num2:Int,val num3:Int)
 
 
